@@ -1,0 +1,114 @@
+body {
+  height: 100%;
+  margin: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-box {
+  display: flex;
+  width: 600px;
+  height: 700px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: 10px 10px 20px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 50px;
+}
+
+.upper {
+  display: flex;
+  background-color: #1d44f2;
+  width: 100%;
+  height: 300px;
+  border-radius: 50px 50px 0 0;
+}
+
+.profile-img {
+  width: 225px;
+  height: 225px;
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  border: solid lightblue;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+
+.lower {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 500px;
+  background-color: white;
+  border-radius: 0 0 50px 50px;
+  margin-top: 50px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.tag {
+  margin-top: 0;
+  padding: 0;
+}
+
+.social-btns {
+  display: flex;
+  gap: 35px;
+  margin: 20px 0;
+}
+
+.social-btns svg {
+  width: 40px;
+  height: 40px;
+  transition: 0.2s;
+}
+
+.social-btns svg:hover {
+  fill: var(--accent-color);
+}
+
+.interact-btns {
+  display: flex;
+  gap: 40px;
+  margin: 40px 0 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.subscribe-btn,
+.message-btn {
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: rgb(61, 115, 185);
+  color: white;
+  border: none;
+  font-size: 15px;
+  transition: 0.2s;
+}
+
+.subscribe-btn:hover,
+.message-btn:hover {
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+}
+
+.social-rate {
+  display: flex;
+  align-items: center;
+  margin-top: 60px;
+  gap: 30px;
+}
+
+.rate-item {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.social-rate img {
+  width: 50px;
+  height: 50px;
+}
